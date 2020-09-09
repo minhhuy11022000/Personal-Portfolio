@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     font-family: 'Poppins', sans-serif;
 }
@@ -216,4 +220,8 @@ footer .icon, footer a{
 
 footer > p{
     margin: 1rem;
+}
+
+@media only screen and (max-width: 480px){
+    
 }
